@@ -1,0 +1,117 @@
+h1.heading {
+	font-weight: 900;
+	font-size: 11rem;
+	line-height: 0.7;
+	color: hsla(0, 0%, 100%, 0.07);
+
+	// @media only screen and (max-width: $tab-land) {
+	// 	font-size: 4.5rem;
+	// }
+	// @media only screen and (max-width: $mbl-port) {
+	// 	font-size: 3.5rem;
+	// }
+}
+h2.heading {
+	font-weight: 900;
+	font-size: 5.6rem;
+}
+h3.heading {
+	font-size: 1.8rem;
+	line-height: 150%;
+	color: $color-primary;
+
+	@media only screen and (max-width: $tab-port) {
+		font-size: 1.4rem;
+		line-height: 146%;
+	}
+	@media only screen and (max-width: $mbl-land) {
+		font-size: 1.8rem;
+		line-height: 150%;
+	}
+}
+
+h4.heading {
+	font-size: 1.6rem;
+	font-family: $font-primary;
+	font-weight: 400;
+	color: $color-secondary;
+	line-height: 150%;
+}
+
+.text {
+	font-size: 1.2rem;
+	color: $color-black;
+	font-weight: 400;
+	font-family: $font-primary;
+	text-transform: capitalize;
+}
+
+a:link,
+a:visited {
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-decoration: none;
+	color: $color-black;
+
+	@media only screen and (max-width: $laptop-port) {
+		font-size: 1.6rem;
+	}
+}
+
+// Typography utils
+
+.bold {
+	font-weight: 700;
+}
+
+.center {
+	text-align: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+
+.icon {
+	height: 3rem;
+	width: 3rem;
+	fill: $color-secondary;
+}
+
+.white {
+	color: $color-white !important;
+}
+.black {
+	color: $color-secondary !important;
+}
+.primary-color {
+	color: $color-primary !important;
+}
+.secondary-color {
+	color: $color-secondary !important;
+}
+
+@mixin pos-center {
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+@mixin flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+@mixin img-size {
+	height: 100%;
+	width: 100%;
+}
+
+@mixin icon-vector {
+	height: 2rem;
+	width: 2rem;
+}
