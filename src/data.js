@@ -12,6 +12,7 @@ const PortfolioData = [
 	{
 		id: 1,
 		type: 'mockup project',
+		title: 'image project',
 		image: Image1,
 		tag: ['mockup'],
 		modalDetails: [
@@ -26,6 +27,7 @@ const PortfolioData = [
 	{
 		id: 2,
 		type: 'youtube project',
+		title: 'youtube project',
 		image: Image2,
 		tag: ['video'],
 		modalDetails: [
@@ -40,6 +42,7 @@ const PortfolioData = [
 	{
 		id: 3,
 		type: 'slider project',
+		title: 'slider project',
 		image: Image3,
 		tag: [],
 		modalDetails: [
@@ -54,6 +57,7 @@ const PortfolioData = [
 	{
 		id: 4,
 		type: 'local project',
+		title: 'LOCAL VIDEO PROJECT',
 		image: Image4,
 		tag: ['logo', 'video'],
 		modalDetails: [
@@ -68,6 +72,7 @@ const PortfolioData = [
 	{
 		id: 5,
 		type: 'saas project',
+		title: 'SAAS APP project',
 		image: Image5,
 		tag: ['logo'],
 		modalDetails: [
@@ -82,6 +87,7 @@ const PortfolioData = [
 	{
 		id: 6,
 		type: 'mockup project',
+		title: 'image project',
 		image: Image6,
 		tag: ['logo', 'mockup'],
 		modalDetails: [
@@ -96,6 +102,7 @@ const PortfolioData = [
 	{
 		id: 7,
 		type: 'facebook project',
+		title: 'facebook project',
 		image: Image7,
 		tag: ['logo'],
 		modalDetails: [
@@ -110,6 +117,7 @@ const PortfolioData = [
 	{
 		id: 8,
 		type: 'dribble project',
+		title: 'dribble profile',
 		image: Image8,
 		tag: ['graphic design'],
 		modalDetails: [
@@ -124,6 +132,7 @@ const PortfolioData = [
 	{
 		id: 9,
 		type: 'behence project',
+		title: 'behence profile',
 		image: Image9,
 		tag: ['graphic design', 'mockup'],
 		modalDetails: [

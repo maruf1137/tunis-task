@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import PortfolioData from '../data';
 import Modal from './model/Modal';
@@ -49,7 +49,7 @@ const Postfolio = () => {
 
 					<TabPanel>
 						{PortfolioData.filter((item) => item.tag.includes('logo')).map((item) => {
-							const { id, type, tag, image } = item;
+							const { id, type, image } = item;
 							// console.log(id);
 							return (
 								<div key={id}>
@@ -65,7 +65,7 @@ const Postfolio = () => {
 
 					<TabPanel>
 						{PortfolioData.filter((item) => item.tag.includes('video')).map((item) => {
-							const { id, type, tag, image } = item;
+							const { id, type, image } = item;
 							// console.log(id);
 							return (
 								<div key={id}>
@@ -81,7 +81,7 @@ const Postfolio = () => {
 
 					<TabPanel>
 						{PortfolioData.filter((item) => item.tag.includes('graphic design')).map((item) => {
-							const { id, type, tag, image } = item;
+							const { id, type, image } = item;
 							// console.log(id);
 							return (
 								<div key={id}>
@@ -97,7 +97,7 @@ const Postfolio = () => {
 
 					<TabPanel>
 						{PortfolioData.filter((item) => item.tag.includes('mockup')).map((item) => {
-							const { id, type, tag, image } = item;
+							const { id, type, image } = item;
 							// console.log(id);
 							return (
 								<div key={id}>

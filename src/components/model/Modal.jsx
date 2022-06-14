@@ -21,17 +21,17 @@ const Modal = ({ modalId, setGetModal }) => {
 	if (modalId === 1) {
 		return (
 			<div className="modal">
+				<div className="modal__outside" onClick={() => setGetModal(false)}></div>
 				<div className="modal__content">
 					{PortfolioData.filter((item) => item.id === modalId).map((item) => {
 						console.log(item);
 						return (
-							<div>
-								<h2 className="heading mb-2">image project</h2>
+							<div key={item.id}>
+								<h2 className="heading mb-2">{item.title}</h2>
 								<div className="modal__details">
-									{item.modalDetails.map((details) => {
-										console.log(details);
+									{item.modalDetails.map((details, index) => {
 										return (
-											<div>
+											<div key={index}>
 												<p className="text">
 													project : <span className="bold">{details.project}</span>
 												</p>
@@ -67,17 +67,17 @@ const Modal = ({ modalId, setGetModal }) => {
 	} else if (modalId === 2) {
 		return (
 			<div className="modal">
+				<div className="modal__outside" onClick={() => setGetModal(false)}></div>
 				<div className="modal__content">
 					{PortfolioData.filter((item) => item.id === modalId).map((item) => {
 						// console.log(item);
 						return (
-							<div>
-								<h2 className="heading mb-2">youtube project</h2>
+							<div key={item.id}>
+								<h2 className="heading mb-2">{item.title}</h2>
 								<div className="modal__details">
-									{item.modalDetails.map((details) => {
-										console.log(details);
+									{item.modalDetails.map((details, index) => {
 										return (
-											<div>
+											<div key={index}>
 												<p className="text">
 													project : <span className="bold">{details.project}</span>
 												</p>
@@ -99,8 +99,6 @@ const Modal = ({ modalId, setGetModal }) => {
 								</div>
 								<figure className="modal__img">
 									<iframe
-										width="600"
-										height="337"
 										src="https://www.youtube.com/embed/7e90gBu4pas"
 										title="YouTube video player"
 										frameborder="0"
@@ -121,17 +119,16 @@ const Modal = ({ modalId, setGetModal }) => {
 	} else if (modalId === 3) {
 		return (
 			<div className="modal">
+				<div className="modal__outside" onClick={() => setGetModal(false)}></div>
 				<div className="modal__content">
 					{PortfolioData.filter((item) => item.id === modalId).map((item) => {
-						// console.log(item);
 						return (
-							<div>
-								<h2 className="heading mb-2">slider project</h2>
+							<div key={item.id}>
+								<h2 className="heading mb-2">{item.title}</h2>
 								<div className="modal__details">
-									{item.modalDetails.map((details) => {
-										console.log(details);
+									{item.modalDetails.map((details, index) => {
 										return (
-											<div>
+											<div key={index}>
 												<p className="text">
 													project : <span className="bold">{details.project}</span>
 												</p>
@@ -177,17 +174,17 @@ const Modal = ({ modalId, setGetModal }) => {
 	} else if (modalId === 4) {
 		return (
 			<div className="modal">
+				<div className="modal__outside" onClick={() => setGetModal(false)}></div>
 				<div className="modal__content">
 					{PortfolioData.filter((item) => item.id === modalId).map((item) => {
 						// console.log(item);
 						return (
-							<div>
-								<h2 className="heading mb-2">LOCAL VIDEO PROJECT</h2>
+							<div key={item.id}>
+								<h2 className="heading mb-2">{item.title}</h2>
 								<div className="modal__details">
-									{item.modalDetails.map((details) => {
-										console.log(details);
+									{item.modalDetails.map((details, index) => {
 										return (
-											<div>
+											<div key={index}>
 												<p className="text">
 													project : <span className="bold">{details.project}</span>
 												</p>
@@ -230,17 +227,17 @@ const Modal = ({ modalId, setGetModal }) => {
 	} else if (modalId === 5) {
 		return (
 			<div className="modal">
+				<div className="modal__outside" onClick={() => setGetModal(false)}></div>
 				<div className="modal__content">
 					{PortfolioData.filter((item) => item.id === modalId).map((item) => {
 						// console.log(item);
 						return (
-							<div>
-								<h2 className="heading mb-2">SAAS APP project</h2>
+							<div key={item.id}>
+								<h2 className="heading mb-2">{item.title}</h2>
 								<div className="modal__details">
-									{item.modalDetails.map((details) => {
-										console.log(details);
+									{item.modalDetails.map((details, index) => {
 										return (
-											<div>
+											<div key={index}>
 												<p className="text">
 													project : <span className="bold">{details.project}</span>
 												</p>
@@ -276,17 +273,16 @@ const Modal = ({ modalId, setGetModal }) => {
 	} else if (modalId === 6) {
 		return (
 			<div className="modal">
+				<div className="modal__outside" onClick={() => setGetModal(false)}></div>
 				<div className="modal__content">
 					{PortfolioData.filter((item) => item.id === modalId).map((item) => {
-						// console.log(item);
 						return (
-							<div>
-								<h2 className="heading mb-2">image project</h2>
+							<div key={item.id}>
+								<h2 className="heading mb-2">{item.title}</h2>
 								<div className="modal__details">
-									{item.modalDetails.map((details) => {
-										console.log(details);
+									{item.modalDetails.map((details, index) => {
 										return (
-											<div>
+											<div key={index}>
 												<p className="text">
 													project : <span className="bold">{details.project}</span>
 												</p>
@@ -322,17 +318,16 @@ const Modal = ({ modalId, setGetModal }) => {
 	} else if (modalId === 7) {
 		return (
 			<div className="modal">
+				<div className="modal__outside" onClick={() => setGetModal(false)}></div>
 				<div className="modal__content">
 					{PortfolioData.filter((item) => item.id === modalId).map((item) => {
-						// console.log(item);
 						return (
-							<div>
-								<h2 className="heading mb-2">facebook project</h2>
+							<div key={item.id}>
+								<h2 className="heading mb-2">{item.title}</h2>
 								<div className="modal__details">
-									{item.modalDetails.map((details) => {
-										console.log(details);
+									{item.modalDetails.map((details, index) => {
 										return (
-											<div>
+											<div key={index}>
 												<p className="text">
 													project : <span className="bold">{details.project}</span>
 												</p>
@@ -368,17 +363,16 @@ const Modal = ({ modalId, setGetModal }) => {
 	} else if (modalId === 8) {
 		return (
 			<div className="modal">
+				<div className="modal__outside" onClick={() => setGetModal(false)}></div>
 				<div className="modal__content">
 					{PortfolioData.filter((item) => item.id === modalId).map((item) => {
-						// console.log(item);
 						return (
-							<div>
-								<h2 className="heading mb-2">dribble profile</h2>
+							<div key={item.id}>
+								<h2 className="heading mb-2">{item.title}</h2>
 								<div className="modal__details">
-									{item.modalDetails.map((details) => {
-										console.log(details);
+									{item.modalDetails.map((details, index) => {
 										return (
-											<div>
+											<div key={index}>
 												<p className="text">
 													project : <span className="bold">{details.project}</span>
 												</p>
@@ -414,17 +408,16 @@ const Modal = ({ modalId, setGetModal }) => {
 	} else if (modalId === 9) {
 		return (
 			<div className="modal">
+				<div className="modal__outside" onClick={() => setGetModal(false)}></div>
 				<div className="modal__content">
 					{PortfolioData.filter((item) => item.id === modalId).map((item) => {
-						// console.log(item);
 						return (
-							<div>
-								<h2 className="heading mb-2">behence profile</h2>
+							<div key={item.id}>
+								<h2 className="heading mb-2">{item.title}</h2>
 								<div className="modal__details">
-									{item.modalDetails.map((details) => {
-										console.log(details);
+									{item.modalDetails.map((details, index) => {
 										return (
-											<div>
+											<div key={index}>
 												<p className="text">
 													project : <span className="bold">{details.project}</span>
 												</p>

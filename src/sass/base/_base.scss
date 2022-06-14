@@ -19,15 +19,15 @@ html {
 	scroll-behavior: smooth;
 	overflow-x: hidden;
 
-	@media only screen and (max-width: $laptop-land) {
+	@media only screen and (max-width: $tab-land) {
 		font-size: 55%;
 	}
 	@media only screen and (max-width: $mbl-land) {
 		font-size: 50%;
 	}
-	// @media only screen and (max-width: $mbl-small) {
-	//   font-size: 45%;
-	// }
+	@media only screen and (max-width: $mbl-small) {
+		font-size: 45%;
+	}
 }
 
 body {
@@ -48,6 +48,6 @@ body {
 	margin: 0 auto;
 
 	@media only screen and (max-width: $laptop-land) {
-		padding: 0 2rem;
+		padding: 0 4rem;
 	}
 }
