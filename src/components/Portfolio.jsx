@@ -33,82 +33,92 @@ const Postfolio = () => {
 					</TabList>
 
 					<TabPanel>
-						{PortfolioData.map((item) => {
-							const { id, type, image } = item;
+						<div className="tab-container">
+							{PortfolioData.map((item) => {
+								const { id, type, image } = item;
 
-							return (
-								<div key={id}>
-									<div className="tab-content" onClick={() => handleModal(id)}>
-										<img src={image} alt="" />
-										<h3>{type}</h3>
+								return (
+									<div key={id}>
+										<div className="tab-content" onClick={() => handleModal(id)}>
+											<img src={image} alt="" />
+											<h3>{type}</h3>
+										</div>
 									</div>
-								</div>
-							);
-						})}
+								);
+							})}
+						</div>
 					</TabPanel>
 
 					<TabPanel>
-						{PortfolioData.filter((item) => item.tag.includes('logo')).map((item) => {
-							const { id, type, image } = item;
-							// console.log(id);
-							return (
-								<div key={id}>
-									<div className="tab-content" onClick={() => handleModal(id)}>
-										<img src={image} alt="" />
-										<h3>{type}</h3>
+						<div className="tab-container">
+							{PortfolioData.filter((item) => item.tag.includes('logo')).map((item) => {
+								const { id, type, image } = item;
+								// console.log(id);
+								return (
+									<div key={id}>
+										<div className="tab-content" onClick={() => handleModal(id)}>
+											<img src={image} alt="" />
+											<h3>{type}</h3>
+										</div>
+										{/* {getModal && <Modal props={modalId} />} */}
 									</div>
-									{/* {getModal && <Modal props={modalId} />} */}
-								</div>
-							);
-						})}
+								);
+							})}
+						</div>
 					</TabPanel>
 
 					<TabPanel>
-						{PortfolioData.filter((item) => item.tag.includes('video')).map((item) => {
-							const { id, type, image } = item;
-							// console.log(id);
-							return (
-								<div key={id}>
-									<div className="tab-content" onClick={() => handleModal(id)}>
-										<img src={image} alt="" />
-										<h3>{type}</h3>
+						<div className="tab-container">
+							{PortfolioData.filter((item) => item.tag.includes('video')).map((item) => {
+								const { id, type, image } = item;
+								// console.log(id);
+								return (
+									<div key={id}>
+										<div className="tab-content" onClick={() => handleModal(id)}>
+											<img src={image} alt="" />
+											<h3>{type}</h3>
+										</div>
+										{/* {getModal && <Modal props={modalId} />} */}
 									</div>
-									{/* {getModal && <Modal props={modalId} />} */}
-								</div>
-							);
-						})}
+								);
+							})}
+						</div>
 					</TabPanel>
 
 					<TabPanel>
-						{PortfolioData.filter((item) => item.tag.includes('graphic design')).map((item) => {
-							const { id, type, image } = item;
-							// console.log(id);
-							return (
-								<div key={id}>
-									<div className="tab-content" onClick={() => handleModal(id)}>
-										<img src={image} alt="" />
-										<h3>{type}</h3>
+						<div className="tab-container">
+							{PortfolioData.filter((item) => item.tag.includes('graphic design')).map((item) => {
+								const { id, type, image } = item;
+								// console.log(id);
+								return (
+									<div key={id}>
+										<div className="tab-content" onClick={() => handleModal(id)}>
+											<img src={image} alt="" />
+											<h3>{type}</h3>
+										</div>
+										{/* {getModal && <Modal props={modalId} />} */}
 									</div>
-									{/* {getModal && <Modal props={modalId} />} */}
-								</div>
-							);
-						})}
+								);
+							})}
+						</div>
 					</TabPanel>
 
 					<TabPanel>
-						{PortfolioData.filter((item) => item.tag.includes('mockup')).map((item) => {
-							const { id, type, image } = item;
-							// console.log(id);
-							return (
-								<div key={id}>
-									<div className="tab-content" onClick={() => handleModal(id)}>
-										<img src={image} alt="" />
-										<h3>{type}</h3>
+						<div className="tab-container">
+							{PortfolioData.filter((item) => item.tag.includes('mockup')).map((item) => {
+								const { id, type, image } = item;
+								// console.log(id);
+								return (
+									<div key={id}>
+										<div className="tab-content" onClick={() => handleModal(id)}>
+											<img src={image} alt="" />
+											<h3>{type}</h3>
+										</div>
+										{/* {getModal && <Modal props={modalId} />} */}
 									</div>
-									{/* {getModal && <Modal props={modalId} />} */}
-								</div>
-							);
-						})}
+								);
+							})}
+						</div>
 					</TabPanel>
 				</Tabs>
 			</div>

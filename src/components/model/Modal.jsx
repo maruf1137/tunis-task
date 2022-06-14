@@ -43,7 +43,7 @@ const Modal = ({ modalId, setGetModal }) => {
 												</p>
 												<p className="text">
 													preview :{' '}
-													<a className="preview-link" href={details.preview}>
+													<a className="preview-link" href="https://www.envato.com/">
 														{details.preview}
 													</a>
 												</p>
@@ -89,7 +89,7 @@ const Modal = ({ modalId, setGetModal }) => {
 												</p>
 												<p className="text">
 													preview :{' '}
-													<a className="preview-link" href={details.preview}>
+													<a className="preview-link" href="https://videohive.net/">
 														{details.preview}
 													</a>
 												</p>
@@ -140,7 +140,7 @@ const Modal = ({ modalId, setGetModal }) => {
 												</p>
 												<p className="text">
 													preview :{' '}
-													<a className="preview-link" href={details.preview}>
+													<a className="preview-link" href="https://www.envato.com">
 														{details.preview}
 													</a>
 												</p>
@@ -196,7 +196,7 @@ const Modal = ({ modalId, setGetModal }) => {
 												</p>
 												<p className="text">
 													preview :{' '}
-													<a className="preview-link" href={details.preview}>
+													<a className="preview-link" href="https://videohive.net">
 														{details.preview}
 													</a>
 												</p>
@@ -249,7 +249,7 @@ const Modal = ({ modalId, setGetModal }) => {
 												</p>
 												<p className="text">
 													preview :{' '}
-													<a className="preview-link" href={details.preview}>
+													<a className="preview-link" href="https://www.envato.com">
 														{details.preview}
 													</a>
 												</p>
@@ -294,7 +294,7 @@ const Modal = ({ modalId, setGetModal }) => {
 												</p>
 												<p className="text">
 													preview :{' '}
-													<a className="preview-link" href={details.preview}>
+													<a className="preview-link" href="https://www.pexels.com">
 														{details.preview}
 													</a>
 												</p>
@@ -339,7 +339,7 @@ const Modal = ({ modalId, setGetModal }) => {
 												</p>
 												<p className="text">
 													preview :{' '}
-													<a className="preview-link" href={details.preview}>
+													<a className="preview-link" href="https://www.facebook.com">
 														{details.preview}
 													</a>
 												</p>
@@ -384,7 +384,7 @@ const Modal = ({ modalId, setGetModal }) => {
 												</p>
 												<p className="text">
 													preview :{' '}
-													<a className="preview-link" href={details.preview}>
+													<a className="preview-link" href="https://dribbble.com">
 														{details.preview}
 													</a>
 												</p>
@@ -429,7 +429,7 @@ const Modal = ({ modalId, setGetModal }) => {
 												</p>
 												<p className="text">
 													preview :{' '}
-													<a className="preview-link" href={details.preview}>
+													<a className="preview-link" href="https://www.behance.net">
 														{details.preview}
 													</a>
 												</p>

@@ -20,7 +20,7 @@ const PortfolioData = [
 				project: 'Website',
 				client: 'Envato',
 				language: 'HTML, CSS, Javascript',
-				preview: 'www.envato.com',
+				preview: 'https.envato.com',
 			},
 		],
 	},
